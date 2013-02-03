@@ -1,3 +1,3 @@
 #!/bin/sh
 
-seq -s ", " 1 10000 > raw.tex
+seq -s ",\n" 1 25000 > raw.tex

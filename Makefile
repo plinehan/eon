@@ -9,4 +9,4 @@ raw.tex : raw.sh
 	ps2pdf -dEPSCrop $<
 
 clean :
-	rm -f *.aux eon.pdf
+	rm -f *.aux *.log eon.pdf
